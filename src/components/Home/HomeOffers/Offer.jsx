@@ -6,7 +6,7 @@ const Offer = ({ offerIcon, offerType, offerColor }) => {
 
   return (
     <div
-      className={`${color} shrink-0 p-2 text-white rounded-md cursor-pointer flex justify-center gap-1 items-center flex-col text-center w-32`}
+      className={`bg-[#009AFE] shrink-0 p-2 text-white rounded-md cursor-pointer flex justify-center gap-1 items-center flex-col text-center w-32`}
     >
       <Image
         className="mb-1"
