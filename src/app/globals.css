@@ -3,4 +3,27 @@
 @tailwind utilities;
 
 @layer components {
+  .sidebar-links {
+    @apply px-10 py-2 inline-block w-full hover:px-11 hover:bg-slate-200 transition-all duration-300;
+  }
+
+  /* dots in the slide */
+  .slide-dots {
+    @apply w-4 h-4 rounded-full bg-gray-200 hover:bg-orange-500 transition-all duration-300 cursor-pointer;
+  }
+
+  /* for centering the element in the center */
+  .position-center {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  /* for button(icon) in the product component */
+  .btn-product {
+    @apply bg-[#F45201] hover:bg-orange-500 transition-all duration-300 cursor-pointer text-white p-2 rounded-md;
+  }
+
+  /* inputs in login form */
+  .input-login {
+    @apply border px-6 py-2 text-slate-800 focus:right-0 focus:outline-none focus:border focus:border-orange-700 w-96 rounded-md;
+  }
 }
