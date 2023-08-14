@@ -24,7 +24,7 @@ const LoginForm = () => {
   const handleLoginSubmit = (e) => {
     e.preventDefault();
 
-    if (password === "" || email === "" || name === "" || confirmPass === "") {
+    if (password === "" || email === "") {
       setError(true);
       return;
     }

@@ -2,11 +2,12 @@ import Image from "next/image";
 import React from "react";
 
 const Offer = ({ offerIcon, offerType, offerColor }) => {
-  const color = `bg-[#${offerColor}]`;
+  const color = `#${offerColor}`;
 
   return (
     <div
-      className={`bg-[#009AFE] shrink-0 p-2 text-white rounded-md cursor-pointer flex justify-center gap-1 items-center flex-col text-center w-32`}
+      style={{ backgroundColor: color }}
+      className={`shrink-0 p-2 text-white rounded-md cursor-pointer flex justify-center gap-1 items-center flex-col text-center w-32`}
     >
       <Image
         className="mb-1"
